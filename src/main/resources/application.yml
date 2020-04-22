@@ -1,0 +1,12 @@
+# Configuration file
+# key = value
+quarkus:
+  datasource:
+    url: jdbc:mysql://localhost:3306/teste
+    driver: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  hibernate-orm:
+    database:
+      generation: drop-and-create
+    dialect: org.hibernate.dialect.MySQL8Dialect
